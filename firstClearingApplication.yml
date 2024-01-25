@@ -1,0 +1,34 @@
+server:
+ servlet:
+  context-path: /firstclearing
+ port: 8080
+spring:
+ datasource:
+  url: jdbc:h2:mem:testdb
+  username: sa
+  password: ''
+  driverClassName: org.h2.Driver
+ h2:
+  console:
+   enabled: true
+   path: /h2-console
+   settings.trace: false
+   settings.web-allow-others: false
+ jpa:
+  database-platform: org.hibernate.dialect.H2Dialect
+  hibernate:
+   ddl-auto: update
+  show-sql: true
+
+build:
+  version: v1.1
+
+user:
+ message: "Hello Deepak"
+ contactDetails:
+ 	address: "7286 waterwheel St sw"
+ 	email: "deepakgurav22@gmail.com"
+ phone:
+ 	-3131231231
+ 	-1231231231
+ 	
