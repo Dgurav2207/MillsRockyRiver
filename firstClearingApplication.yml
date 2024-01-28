@@ -21,7 +21,7 @@ spring:
   show-sql: true
 
 build:
-  version: v1.1
+  version: v2.1
 
 user:
  message: "Hello Deepak"
