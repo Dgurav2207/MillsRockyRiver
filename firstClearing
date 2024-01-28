@@ -1,0 +1,11 @@
+build:
+  version: v4.1
+
+user:
+ message: "Hello Deepak"
+ contactDetails:
+  address: "7286 waterwheel St sw"
+  email: "deepakgurav22@gmail.com"
+  phone:
+   -3131231231
+   -1231231231
